@@ -6,15 +6,9 @@ class Solution {
         for(int x : nums){
             xor ^= x;
             if(x!=0)  nonzero= true;
-               
-            
         }
         if(xor!=0) return nums.length;
-            
-        
         if(nonzero)return nums.length-1;
-            
-        
         return 0;
     }
 }
