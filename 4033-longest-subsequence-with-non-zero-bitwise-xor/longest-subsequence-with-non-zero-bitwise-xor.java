@@ -3,9 +3,9 @@ class Solution {
        
         int xor = 0;
          boolean nonzero = false;
-        for(int num : nums){
-            xor ^= num;
-            if(num!=0){
+        for(int x : nums){
+            xor ^= x;
+            if(x!=0){
                 nonzero= true;
             }
         }
